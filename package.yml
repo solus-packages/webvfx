@@ -1,0 +1,25 @@
+name       : webvfx
+version    : 0.4.4
+release    : 1
+source     :
+    - git|https://github.com/mltframework/webvfx.git : e918ce4667e623c3d60735cb898223e730c6d7af
+license    : BSD-3-Clause
+component  : multimedia.library
+summary    : Video effects library
+description: |
+    WebVfx is a video effects library that allows effects to be implemented using WebKit HTML or Qt QML.
+builddeps  :
+    - pkgconfig(gl)
+    - pkgconfig(mlt-framework)
+    - pkgconfig(Qt5Qml)
+    - pkgconfig(Qt5WebKit)
+rundeps    :
+    - mlt
+setup      : |
+    %qmake PREFIX=$installdir/usr
+build      : |
+    %make
+install    : |
+    %make_install
+    # Should be the same on Linux (as per docs)
+    ln -s /usr/bin/melt $installdir/usr/bin/qmelt

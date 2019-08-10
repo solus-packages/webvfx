@@ -1,5 +1,6 @@
 libwebvfx.so.1:_Z24qInitResources_resourcesv
 libwebvfx.so.1:_Z27qCleanupResources_resourcesv
+libwebvfx.so.1:_ZN6WebVfx10Parameters16getRectParameterERK7QString
 libwebvfx.so.1:_ZN6WebVfx10Parameters18getNumberParameterERK7QString
 libwebvfx.so.1:_ZN6WebVfx10Parameters18getStringParameterERK7QString
 libwebvfx.so.1:_ZN6WebVfx10ParametersD0Ev
@@ -72,6 +73,7 @@ libwebvfx.so.1:_ZN6WebVfx14ContentContext11qt_metacastEPKc
 libwebvfx.so.1:_ZN6WebVfx14ContentContext11readyRenderEb
 libwebvfx.so.1:_ZN6WebVfx14ContentContext15renderRequestedEd
 libwebvfx.so.1:_ZN6WebVfx14ContentContext15setImageTypeMapERK4QMapI7QString8QVariantE
+libwebvfx.so.1:_ZN6WebVfx14ContentContext16getRectParameterERK7QString
 libwebvfx.so.1:_ZN6WebVfx14ContentContext18getNumberParameterERK7QString
 libwebvfx.so.1:_ZN6WebVfx14ContentContext18getStringParameterERK7QString
 libwebvfx.so.1:_ZN6WebVfx14ContentContext6renderEd

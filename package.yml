@@ -1,9 +1,8 @@
 name       : webvfx
-version    : 0.4.4
-release    : 5
+version    : 1.1.0
+release    : 6
 source     :
-    - git|https://github.com/mltframework/webvfx.git : d65a42d25a887d11fd5cf5e485c1561dc802b671
-    - https://github.com/mltframework/mlt/releases/download/v6.6.0/mlt-6.6.0.tar.gz : 28cbc5974f72ef228d624a58809c7c8055372f5f62f5882dc055099d444b2cdd
+    - https://github.com/mltframework/webvfx/releases/download/1.1.0/webvfx-1.1.0.txz : 49ce670e573d9d259b90913edca10378ad3bc19613283eb99baa6eb9cc6d4394
 license    : BSD-3-Clause
 component  : multimedia.library
 summary    : Video effects library
@@ -15,8 +14,7 @@ builddeps  :
     - pkgconfig(Qt5Qml)
     - pkgconfig(Qt5WebKit)
 setup      : |
-    tar xf $sources/mlt-6.6.0.tar.gz -C .
-    %qmake PREFIX=$installdir/usr MLT_SOURCE=$workdir/mlt-6.6.0
+    %qmake PREFIX=$installdir/usr
 build      : |
     %make
 install    : |

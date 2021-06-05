@@ -14,6 +14,7 @@ libwebvfx.so.1:_ZN6WebVfx10QmlContent11qt_metacastEPKc
 libwebvfx.so.1:_ZN6WebVfx10QmlContent12paintContentEP8QPainter
 libwebvfx.so.1:_ZN6WebVfx10QmlContent13renderContentEdPNS_5ImageE
 libwebvfx.so.1:_ZN6WebVfx10QmlContent14setContentSizeERK5QSize
+libwebvfx.so.1:_ZN6WebVfx10QmlContent16staticMetaObjectE
 libwebvfx.so.1:_ZN6WebVfx10QmlContent19contentLoadFinishedEb
 libwebvfx.so.1:_ZN6WebVfx10QmlContent20qmlViewStatusChangedEN10QQuickView6StatusE
 libwebvfx.so.1:_ZN6WebVfx10QmlContent22contentPreLoadFinishedEb
@@ -32,6 +33,7 @@ libwebvfx.so.1:_ZN6WebVfx10WebContent12paintContentEP8QPainter
 libwebvfx.so.1:_ZN6WebVfx10WebContent13renderContentEdPNS_5ImageE
 libwebvfx.so.1:_ZN6WebVfx10WebContent14setContentSizeERK5QSize
 libwebvfx.so.1:_ZN6WebVfx10WebContent14setTransparentEv
+libwebvfx.so.1:_ZN6WebVfx10WebContent16staticMetaObjectE
 libwebvfx.so.1:_ZN6WebVfx10WebContent19contentLoadFinishedEb
 libwebvfx.so.1:_ZN6WebVfx10WebContent19webPageLoadFinishedEb
 libwebvfx.so.1:_ZN6WebVfx10WebContent20injectContentContextEv
@@ -53,6 +55,7 @@ libwebvfx.so.1:_ZN6WebVfx11EffectsImpl14renderCompleteEb
 libwebvfx.so.1:_ZN6WebVfx11EffectsImpl15getImageTypeMapEv
 libwebvfx.so.1:_ZN6WebVfx11EffectsImpl15reloadInvokableEv
 libwebvfx.so.1:_ZN6WebVfx11EffectsImpl15renderInvokableEdPNS_5ImageE
+libwebvfx.so.1:_ZN6WebVfx11EffectsImpl16staticMetaObjectE
 libwebvfx.so.1:_ZN6WebVfx11EffectsImpl18initializeCompleteEb
 libwebvfx.so.1:_ZN6WebVfx11EffectsImpl19initializeInvokableERK4QUrlRK5QSizePNS_10ParametersEbb
 libwebvfx.so.1:_ZN6WebVfx11EffectsImpl6reloadEv
@@ -74,6 +77,7 @@ libwebvfx.so.1:_ZN6WebVfx14ContentContext11readyRenderEb
 libwebvfx.so.1:_ZN6WebVfx14ContentContext15renderRequestedEd
 libwebvfx.so.1:_ZN6WebVfx14ContentContext15setImageTypeMapERK4QMapI7QString8QVariantE
 libwebvfx.so.1:_ZN6WebVfx14ContentContext16getRectParameterERK7QString
+libwebvfx.so.1:_ZN6WebVfx14ContentContext16staticMetaObjectE
 libwebvfx.so.1:_ZN6WebVfx14ContentContext18getNumberParameterERK7QString
 libwebvfx.so.1:_ZN6WebVfx14ContentContext18getStringParameterERK7QString
 libwebvfx.so.1:_ZN6WebVfx14ContentContext6renderEd
@@ -101,6 +105,7 @@ libwebvfx.so.1:_ZN6WebVfx22GLWidgetRenderStrategyD1Ev
 libwebvfx.so.1:_ZN6WebVfx22GLWidgetRenderStrategyD2Ev
 libwebvfx.so.1:_ZN6WebVfx3logERK7QString
 libwebvfx.so.1:_ZN6WebVfx5Image10copyPixelsERKS0_RS0_
+libwebvfx.so.1:_ZN6WebVfx5Image13BytesPerPixelE
 libwebvfx.so.1:_ZN6WebVfx5Image14copyPixelsFromERKS0_
 libwebvfx.so.1:_ZN6WebVfx6LoggerD0Ev
 libwebvfx.so.1:_ZN6WebVfx6LoggerD1Ev
@@ -114,6 +119,7 @@ libwebvfx.so.1:_ZN6WebVfx7EffectsD2Ev
 libwebvfx.so.1:_ZN6WebVfx7WebPage11qt_metacallEN11QMetaObject4CallEiPPv
 libwebvfx.so.1:_ZN6WebVfx7WebPage11qt_metacastEPKc
 libwebvfx.so.1:_ZN6WebVfx7WebPage15javaScriptAlertEPNS_9QWebFrameERK7QString
+libwebvfx.so.1:_ZN6WebVfx7WebPage16staticMetaObjectE
 libwebvfx.so.1:_ZN6WebVfx7WebPage23acceptNavigationRequestEPNS_9QWebFrameERKNS_15QNetworkRequestEN8QWebPage14NavigationTypeE
 libwebvfx.so.1:_ZN6WebVfx7WebPage24javaScriptConsoleMessageERK7QStringiS3_
 libwebvfx.so.1:_ZN6WebVfx7WebPage25shouldInterruptJavaScriptEv
@@ -153,3 +159,6 @@ libwebvfx.so.1:_ZTv0_n80_N6WebVfx10QmlContent10createViewEP7QWidget
 libwebvfx.so.1:_ZTv0_n80_N6WebVfx10WebContent10createViewEP7QWidget
 libwebvfx.so.1:_ZTv0_n88_N6WebVfx10QmlContent6reloadEv
 libwebvfx.so.1:_ZTv0_n88_N6WebVfx10WebContent6reloadEv
+libwebvfx.so.1:__bss_start
+libwebvfx.so.1:_edata
+libwebvfx.so.1:_end
